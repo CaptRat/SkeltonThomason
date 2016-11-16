@@ -1,0 +1,266 @@
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+/*----------*/
+
+.adjust {
+    min-height: 0px; /* this controls the minimum height of the carousel*/
+    margin: 0px 10%; /* use this to change carousel width. if margin is 0% then carousel spans entire window */
+    margin-bottom: 30px;
+}
+
+#pad {
+    padding: 0px 14%;
+}
+body {
+    margin-top: 90px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+}
+
+.btn-change2 {
+    height: 50px;
+    width: 140px;
+    background: #31708f ;
+    margin-top: 13px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #4286f4;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: 0 0;
+    box-shadow:0px 0px 0 100px #007c84 inset;
+    text-transform: uppercase;
+}
+
+.btn-change2:hover {
+    -webkit-box-shadow:0px 0px 0 0px lightseagreen inset;
+    -webkit-transform: scale(1);
+}
+.btn-change3 {
+    height: 50px;
+    width: 140px;
+    margin-left: 95px;
+    background: #0000FF ;
+    margin-top: 13px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #4286f4;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: 0 0;
+    box-shadow:0px 0px 0 100px #007c84 inset;
+    text-transform: uppercase;
+}
+
+.btn-change3:hover {
+    -webkit-box-shadow:0px 0px 0 0px lightseagreen inset;
+    -webkit-transform: scale(1);
+}
+
+
+.containerPadding {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contentEdit {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.divPadding {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.dropdown-menu {
+    opacity:0;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-animation-fill-mode: forwards;  
+    animation-fill-mode: forwards; 
+    -webkit-transform: scale(1, 0);
+    display: block; 
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+#faqimage {
+    background-image: url('dependencies/images/optimized/FAQ.jpg');
+}
+
+#fieldConsulting {
+    background-image: url('dependencies/images/optimized/consulting.jpg')
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #6b6b6b;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1rem, 0, 2rem;
+    font-size: 5em
+}
+
+h2 {
+    color: #007c84;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#heartImage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.heroQuote {
+    position: absolute; 
+    top: 50%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.imgFix {
+    width: 100%;
+    height: auto;
+}
+
+.imgCustom {
+    width: 100%;
+    height: auto; 
+}
+
+.imageAdjust {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+#meetDeborah {
+    background-image: url('dependencies/images/optimized/Deborah2.jpg');
+}
+
+.navCustom {
+    margin-top: 0.9em;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+}
+
+.open > .dropdown-menu {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);  
+    opacity:1;
+}
+
+#pad {
+    padding: 0px 14%;
+}
+
+.parallax {
+    background-image: url('dependencies/images/optimized/rabbitbrush.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 90px; /* padding so header img doesn't overlap with navbar*/
+}
+
+#quoteHome {
+    background-color: rgba(0,0,0,0.5);
+    padding: 2em;
+    border-radius: 25px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#signature {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+#slogan {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: auto;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#testimonials {
+    background-image: url('dependencies/images/optimized/cactusflowers.jpg');
+}
+
+#usingConsultant {
+    background-image: url('dependencies/images/optimized/twotrack.jpg');
+}
+
+#youngAdults {
+    background-image: url('dependencies/images/optimized/youngadults2.jpg');
+}
+
+#contactUs {
+    background-image: url('dependencies/images/optimized/longroad.jpg');
+}
+
+@media only screen and (max-width: 500px) {
+    .parallax {
+        background-attachment: scroll;
+        background-position: 0px 0px;
+    }
+}
+
